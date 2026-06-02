@@ -1,0 +1,70 @@
+*{
+  font-family: 'Times New Roman';
+  
+  
+}
+.fullscreen_bg {
+  position: fixed;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  background-size: cover;
+}
+
+.rt-heading h1{
+  background-color:rgb(56, 153, 234);
+}
+
+.fullscreen_bg_video {
+  position: fixed;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #321eb4;
+    color: white;
+  }
+
+  
+.card, .info-box, .profile-container {
+    background: rgba(255, 255, 255, 0.08); 
+    backdrop-filter: blur(10px); /* Blurs the video playing underneath */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+table, tr, td {
+    background: transparent !important;
+    color: #ffffff !important;
+}
+  
+pre {
+  color: white;
+}
